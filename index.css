@@ -1,0 +1,198 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .main{
+        height: 900px;
+        width: 850px;
+        margin: 0 auto;
+        background-color:rgb(62, 70, 82);
+    }
+
+    /****----------------head--------------******/
+
+    .main .head{
+        width: 92%;
+        height: 15%;
+        padding: 4% 4% 0 4%;
+    }
+
+    .main .head .header-left{
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+
+    .main .head .header-left p{
+        font-size: 40px;
+        font-weight: lighter;
+        color: white;
+        line-height: 35px;
+    }
+
+    .main .head .header-right{
+        height: 100%;
+        width: 50%;
+        float: left;
+        text-align: right;
+    }
+
+.main .head .header-right .p1{
+    font-size:17px;
+    color:rgb(7, 136, 136);
+}
+
+.main .head .header-right .p2{
+    margin-top: 1.5%;
+    padding: 4% 0 4% 4%;
+}
+
+    .main .head .header-right .p2 a{
+        text-decoration: none;
+        margin-left: 3%;
+        font-size: 15px;
+        color: white;
+    }
+
+    .main .head .header-right .p2 a:hover{
+        color: rgb(198, 235, 222);
+        cursor:pointer;
+    }
+
+    /********-----------body-----------********/
+
+    /****----part1-----*****/
+
+    .main .body-part1{
+        height: 25%;
+        width: 92%;
+        padding: 0 4% 0 4%;
+        text-align: center;
+    }
+
+    .main .body-part1 .p3{
+        font-size: 25px;
+        font-weight:300;
+        color: rgb(2, 110, 110);
+    }
+
+    .main .body-part1 .p4{
+        width: 100%;
+        font-size: 115%;
+        color: rgb(224, 216, 216);
+        font-weight:200;
+        line-height: 180%;
+    }
+
+    .main .body-part1 button{
+        width: 20%;
+        height: 25%;
+        margin: 3% auto 0 auto;
+        padding: 8px 10px;
+        color: white;
+        background-color: rgb(62, 70, 82);
+        border-color: white;
+        border-radius: 6px;
+        font-family: sans-serif;
+        border: none;
+        border: 1px solid white;
+    }
+
+    .main .body-part1 button a{
+        font-family: sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+
+    .main .body-part1 button a:hover{
+        color: bisque;
+    }
+
+    .main .body-part1 button:hover{
+        cursor: pointer;
+    }
+
+
+    /******-----part2------**********/
+
+    .main .body-part2{
+        height: 42.5%;
+        width: 91.7%;
+        padding: 0 4% 0 4%;
+        background-color: white;
+        margin-top: 2.5%;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .main .body-part2 .section{
+        width: 28%;
+        height: 90%;
+        margin-top: 4%;
+        float: left;
+        text-align: justify;
+    }
+
+    .main .body-part2 .section .heading1{
+        font-weight: 600;
+        margin-top: 13%;
+        font-size: 65%;
+        color:rgb(177, 156, 156);
+    }
+
+    .main .body-part2 .section img{
+        width: 100%;
+        height: 35%;
+        margin-top: 7%;
+        border-radius: 6px;
+    }
+
+    .main .body-part2 .section .heading2{
+        font-weight:400;
+        margin-top: 10%;
+        color: rgb(7, 136, 136);
+    }
+
+    .main .body-part2 .section .discription{
+        font-size: 65%;
+        margin-top: 5%;
+    }
+
+
+    /*******----------footer-------******/
+
+    .main .footer{
+        height: 11%;
+        width: 99.8%;
+    }
+
+    .main .footer .footer-left{
+        width: 40%;
+        height: 75%;
+        float: left;
+        padding:5.5% 0 0 6%;
+        font-size: 80%;
+        color: rgb(25, 148, 148);
+    }
+
+    .main .footer .footer-right{
+        width: 40%;
+        height: 75%;
+        float: left;
+        padding:5% 2% 0 8%;
+        color: white;
+        text-align: right;
+    }
+
+    .main .footer .footer-right .p5 a{
+        text-decoration: none;
+        font-size: 65%;
+        margin-left: 2%;
+    }
+
+    .main .footer .footer-right .p5 a:hover{        
+        color: rgb(198, 235, 222);
+        cursor:pointer;
+    }
